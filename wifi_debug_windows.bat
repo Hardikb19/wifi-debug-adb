@@ -25,5 +25,4 @@ set /p ip=Enter IP:
 adb connect %ip%
 
 set /p done=done(y/n)???
-d
 IF %done%==n GOTO CONNECT
